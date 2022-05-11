@@ -13,7 +13,7 @@ Build module gradle
 
 ```
 dependencies {
-	        implementation 'com.github.VetonNeziri:BarView:Tag'
+	        implementation 'com.github.codex-developers:BarView:Tag'
 }
 ```
   
