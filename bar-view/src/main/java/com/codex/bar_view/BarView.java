@@ -1,4 +1,4 @@
-package com.veton.bar_view;
+package com.codex.bar_view;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -19,7 +19,6 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.core.content.ContextCompat;
-
 
 import java.text.DecimalFormat;
 import java.util.List;
@@ -562,17 +561,17 @@ public class BarView extends View {
         requestLayout();
     }
 
-    public Bar getSegmentForValue(){
+    public Bar getSegmentForValue() {
         Bar current = getEmptySegment();
-        for (int i = 0; i< bars.size(); i++){
-            if (value >= bars.get(i).getMinValue() && value<= bars.get(i).getMaxValue()){
+        for (int i = 0; i < bars.size(); i++) {
+            if (value >= bars.get(i).getMinValue() && value <= bars.get(i).getMaxValue()) {
                 current = bars.get(i);
             }
         }
         return current;
     }
 
-    private Bar getEmptySegment(){
+    private Bar getEmptySegment() {
         return new Bar(
                 0F, 0F, Color.BLACK
         );

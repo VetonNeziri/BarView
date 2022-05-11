@@ -1,4 +1,4 @@
-package com.veton.bar_view;
+package com.codex.bar_view;
 
 public class BarViewSideStyle {
     public static final int NORMAL = 0;

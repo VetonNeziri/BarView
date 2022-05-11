@@ -1,4 +1,4 @@
-package com.veton.bar_view;
+package com.codex.bar_view;
 
 public class BarViewSideTextStyle {
     public static final int ONE_SIDED = 0;

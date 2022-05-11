@@ -1,4 +1,4 @@
-package com.veton.bar_view
+package com.codex.bar_view
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

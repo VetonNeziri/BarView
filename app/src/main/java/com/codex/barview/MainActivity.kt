@@ -1,10 +1,10 @@
-package com.veton.barview
+package com.codex.barview
 
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.veton.bar_view.Bar
-import com.veton.barview.databinding.ActivityMainBinding
+import com.codex.bar_view.Bar
+import com.codex.barview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -1,4 +1,4 @@
-package com.veton.bar_view
+package com.codex.barview
 
 import org.junit.Test
 
